@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-duplicate-remover",
+  "version": "1.0.0",
+  "description": "Checking the hash of files and removing duplicate files by NodeJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habibi-dev/nodejs-duplicate-remover.git"
+  },
+  "keywords": [
+    "nodejs",
+    "file",
+    "duplicate"
+  ],
+  "author": "Habibi-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habibi-dev/nodejs-duplicate-remover/issues"
+  },
+  "homepage": "https://github.com/habibi-dev/nodejs-duplicate-remover#readme",
+  "dependencies": {
+    "@types/lodash": "^4.17.9",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "tsc": "^2.0.4",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.2"
+  }
+}
